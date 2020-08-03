@@ -5,6 +5,9 @@ import sys
 import string 
 
 
+## yo estoy usando ese codigo para entender todo eso, pero tengo una enorme critica. Por que hacerlos tan dificiles de entender?????
+
+
 cli_options = sys.argv 
 
 def main(): MAC = cli_options[1] timeout = cli_options[2] PMAC = string.replace(MAC,':','_') 
