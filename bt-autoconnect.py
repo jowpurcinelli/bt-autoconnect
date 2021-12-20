@@ -17,7 +17,7 @@ def main(): MAC = cli_options[1] timeout = cli_options[2] PMAC = string.replace(
 pa_args = ['pacmd set-default-sink bluez_sink.' + PMAC] 
 
 bt_args = ['sdptool browse ' + MAC] 
-#MAC == hardware adress ex: 3G; 5T; Y3; 1C o algo asi 
+#MAC == hardware address ex: 3G; 5T; Y3; 1C o algo asi 
 if (){
    connected == false
    callConnection
